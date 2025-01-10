@@ -1,0 +1,293 @@
+html, body 
+	{
+		height: 100%;
+		overflow-x: hidden;  /* Empêche la barre de défilement horizontale */
+		overflow-y: auto;    /* Affiche la barre de défilement verticale si nécessaire */
+  	}
+* 
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+/* En-Tête */
+
+#header_bandeau
+    {
+        background-color: #d8370a;
+        height: 30px;
+        margin-top: -10px;
+    }
+#logo
+    {
+        width: 364.48px;
+        height: 106.76px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+header
+    {
+        background-color: white;
+        height: 185px;
+		margin-left: -8px
+    }
+footer
+	{
+		margin: -8px;
+		margin-top: 100px;
+		background-color: #d8370a;
+		height: 150px
+	}
+#header_text /*texte de l'en-tête*/
+    {
+        color: #145cb4;
+        font-family: Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 160%;
+        text-align: left;
+        margin-left: 430px;
+        margin-top: -60px
+    }
+
+
+/* Navigation */
+
+nav
+    {
+        background-color: #d8370a;
+        height: 65px;
+        margin-left: -8px;
+    }
+ul
+    {
+        margin: auto;
+		margin-left: 3.5%
+    }
+li
+    {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 160%;
+        display: inline;
+    }
+#selected
+	{
+		text-decoration: none;
+		color: white;
+		padding: 8px 50px;
+		text-align: center;
+		margin-top: 10px;
+		margin-right: 50px;
+		border-radius: 10px;
+
+		font-weight: bold;
+		background-color: #f44d20;
+	}
+.unselected
+    {
+		text-decoration: none;
+		color: white;
+		padding: 8px 50px;
+		text-align: center;
+		margin-top: 10px;
+		margin-right: 50px;
+		border-radius: 10px;
+
+		background-color: #c73209;
+    }
+
+
+/* Corps */
+
+body
+	{
+		font-family: Helvetica, Arial, sans-serif;
+	}
+.texte
+	{
+		font-size: 140%;
+		margin: 25px
+	}
+#accueil_image
+	{
+		height: 100% ; width : 100%
+	}
+
+b
+	{
+		color: #781606;
+		font-size: 105%;
+		font-weight: bold;
+	}
+h1
+	{
+		font-size: 250%;
+		margin: 25px;
+		margin-top: 3.5%;
+		margin-bottom: 3.5%;
+		font-family: "Roboto Bold", Helvetica, Arial, 'Open Sans', sans-serif
+	}
+h2
+	{
+		font-size: 200%;
+		margin: 25px;
+		margin-top: 2.5%;
+		margin-bottom: 2.5%;
+		font-family: "Roboto Medium", Helvetica, Arial, 'Open Sans', sans-serif
+	}
+.contact_image
+	{
+		display: inline;
+		margin-left: 315px; margin-top: -700px;
+		width: 53%; height: 53%
+	}
+article.contact_info
+	{
+		margin-bottom: 60px
+	}
+
+#recherche_texte
+	{
+		font-size: 140%;
+		margin: 25px;
+		color: #7F7F7F;
+		font-style: italic;
+	}
+#recherche_image
+	{
+		margin-left: 1225px; margin-top: 5px;
+		width: 15em; height:min-content
+	}
+
+section.raccourci
+	{
+		margin-bottom: 500px
+	}
+article.raccourci
+	{
+		width: auto; height: 150px;
+		background-color: #D3D3D3;
+		border-radius: 10px;
+		margin-left: -8px;
+		margin-bottom: 175px
+	}
+article.raccourci:hover
+	{
+		width: auto; height: 150px;
+		background-color: #dddddd;
+		border-radius: 10px;
+		margin-left: -8px;
+		margin-bottom: 175px
+	}
+a.raccourci
+	{
+		text-decoration: none;
+		color: black
+	}
+a.raccourci:hover
+	{
+		text-decoration: none;
+		color: rgb(70, 70, 70)
+	}
+h2.titre_raccourci
+	{
+		font-weight: bold;
+		text-align: center;
+		margin-top: -10px
+	}
+.image_raccourci
+	{
+		width: 1526px; height: 231.28px;
+		margin-top: -15px
+	}
+
+h1.titre_presentation
+	{
+		text-align: center;
+		margin-bottom: 15px;
+		margin-top: 85px
+	}
+section.presentation
+	{
+		margin-left: 27px;
+		margin-top: 20px;
+		height: 550px; width: 100%;
+		display: flex;
+		overflow-x: auto;
+		overflow-y: hidden;
+		scroll-behavior: auto;
+		scroll-behavior: smooth
+	}
+article.presentation
+	{
+		background-color: #D3D3D3;
+		border-radius: 25px;
+		width: 475px; height: 515px;
+		margin-right: 14.1px;
+		display: inline-block
+	}
+.image_presentation
+	{
+		width: 400px; height: 234.78px;
+		margin: 35px;
+		margin-bottom: 15px
+	}
+p.nom_du_vehicule
+	{
+		font-weight: bold;
+		font-size: 140%;
+		margin-left: 35px;
+		margin-top: 15px;
+		margin-bottom: 12.5px
+	}
+p.nombre_de_places_du_vehicule
+	{
+		font-style: italic;
+		font-size: 140%;
+		margin-left: 35px;
+		margin-top: -5px
+	}
+p.prix_du_vehicule
+	{
+		font-size: 140%;
+		margin-left: 35px;
+		margin-top: 30px
+	}
+
+a
+	{
+		color: #145cb4;
+	}
+section.hit-parade
+	{
+		margin-left: 27px;
+		display: inline-block;
+	}
+article.hit-parade
+	{
+		background-color: #D3D3D3;
+		border-radius: 25px;
+		width: 475px; height: 515px;
+		margin-right: 14.1px;
+		margin-bottom: 17px;
+		display: inline-block;
+	}
+.image_hit-parade
+	{
+		width: 400px; height: 234.78px;
+		margin: 35px;
+		margin-bottom: 15px
+	}
+.image_hit-parade_hidden
+	{
+		background-color: #D3D3D3;
+		width: 400px; height: 234.78px;
+		margin: 35px;
+		margin-bottom: 15px;
+	}
+.description_du_vehicule
+	{
+		font-family: "Bahnschrift Light", "Roboto Light", Helvetica, Arial;
+		font-size: 110%;
+		margin-left: 35px;
+		margin-top: 30px
+	}
